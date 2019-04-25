@@ -1,13 +1,13 @@
-describe('suite 20', () => { 
-describe('suite 20 1 0', () => { 
-test('test 1 0', function () {  })
-test('test 1 1', function () {  })
-test('test 1 2', function () {  })
-test('test 1 3', function () {  })
-test('test 1 4', function () {  }) });
-describe('suite 20 1 1', () => { 
-test('test 1 0', function () {  })
-test('test 1 1', function () {  })
-test('test 1 2', function () {  })
-test('test 1 3', function () {  })
-test('test 1 4', function () {  }) }); });
+describe('suite 20', function () { 
+describe('suite 20 1 0', function () { 
+it('test 1 0', function () {  })
+it('test 1 1', function () {  })
+it('test 1 2', function () {  })
+it('test 1 3', function () {  })
+it('test 1 4', function () {  }) });
+describe('suite 20 1 1', function () { 
+it('test 1 0', function () {  })
+it('test 1 1', function () {  })
+it('test 1 2', function () {  })
+it('test 1 3', function () {  })
+it('test 1 4', function () {  }) }); });
