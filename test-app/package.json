@@ -26,5 +26,18 @@
   ],
   "devDependencies": {
     "jest": "^24.7.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/styles/**",
+      "!<rootDir>/node_modules/",
+      "!src/js/**",
+      "!TESTS/**"
+    ],
+    "testMatch": [
+      "**/__tests__/**/*.[jt]s?(x)",
+      "<rootDir>/**/*.test.js"
+    ]
   }
 }
